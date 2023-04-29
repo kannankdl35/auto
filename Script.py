@@ -1,9 +1,9 @@
 class script(object):
-    START_TXT = """<b>Hᴇʟʟᴏ Dᴇᴇᴘᴀᴋ, Mʏsᴇʟғ  Fɪʟᴏ ✨,
+    START_TXT = """<b>Hᴇʟʟᴏ {}, Mʏsᴇʟғ  Fɪʟᴏ ✨,
 
 I Aᴍ Jᴜsᴛ A Sɪᴍᴘʟᴇ Aᴜᴛᴏ + Mᴀɴᴜᴀʟ Fɪʟᴛᴇʀ Bᴏᴛ Mᴀᴅᴇ Fᴏʀ Cɪɴᴇᴍᴀɢʀᴀᴍ Gʀᴏᴜᴘ.
 
-Mᴀᴋᴇ Sᴜʀᴇ Yᴏᴜ Hᴀᴠᴇ Jᴏɪɴᴇᴅ Aʟʟ Tʜᴇ Cʜᴀɴɴᴇʟs Bᴇʟᴏᴡ Bᴇғᴏʀᴇ Rᴇǫᴜᴇsᴛɪɴɢ A Mᴏᴠɪᴇ.</b>"""
+Jᴏɪɴ Tʜᴇ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛɪɴɢ Gʀᴏᴜᴘ Usɪɴɢ Tʜᴇ Bᴜᴛᴛᴏɴ Bᴇʟᴏᴡ Tᴏ Usᴇ Mᴇ.</b>"""
     LZTHMB_TEXT = """Hello {},
 Glad to see you here. It seems that you really love <a href=https://t.me/LazyDeveloperr >LazyDeveloper's</a> work.\n\n<b>Thumbnail extracting</b> feature will be available soon, please join <a href=https://t.me/LazyDeveloper>Dev Channel</a> and stay tuned for next <a href=https://t.me/LazyDeveloper>update</a>.\n\n  🐞 Report Bug here: <a href=http://t.me/LazyDeveloperSupport>LazyDev Support</a>
     """
@@ -55,7 +55,7 @@ Here is the help for my COMMANDS."""
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/LazyDeveloper)</code>
+<code>[Button Text](buttonurl:https://t.me/Cinemagram_Links)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
