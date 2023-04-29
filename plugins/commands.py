@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('Sᴛᴀʀᴛ Mᴇ', url='https://t.me/CMGAutoFilter_Bot')
+                InlineKeyboardButton('Sᴛᴀʀᴛ Mᴇ', url='https://t.me/CMG_Movie_Bot')
             ],
             [
                 InlineKeyboardButton('Cʜᴀɴɴᴇʟ Lɪɴᴋs', url=f"https://t.me/Cinemagram_Links"),
@@ -43,16 +43,16 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('✙ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ ✙', url='https://t.me/+o_9txeiRDbJhYjY1')
-            ],[
-            InlineKeyboardButton('Nᴇᴡ Mᴏᴠɪᴇs', url='https://t.me/+5ihzUQU7rmA5Mjc1'),
-            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/CMG_Updates')
-            ],[
-            InlineKeyboardButton('Bᴀᴄᴋᴜᴘ Gʀᴏᴜᴘ', url='https://t.me/+EA0BX9M2a7o0NjI1'),
-            InlineKeyboardButton('Cʜᴀɴɴᴇʟ Lɪɴᴋs', url='https://t.me/Cinemagram_Links')
-            ],[
-            InlineKeyboardButton('Cᴏɴᴛᴀᴄᴛ Aᴅᴍɪɴ', url='https://t.me/CMG_Adminchatbot')
-            ]]
+                    InlineKeyboardButton('✗ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ ✗', url='https://t.me/+EA0BX9M2a7o0NjI1')
+                ],[
+                    InlineKeyboardButton('Nᴇᴡ Mᴏᴠɪᴇs', url='https://t.me/+5ihzUQU7rmA5Mjc1'),
+                    InlineKeyboardButton('Cʜᴀɴɴᴇʟ Lɪɴᴋs', url='https://t.me/Cinemagram_Links')
+                ],[
+                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/CMG_Updates'),
+                    InlineKeyboardButton('Bᴀᴄᴋᴜᴘ Gʀᴏᴜᴘ', url='https://t.me/+-JJnpTV7hDsxNTY1')                  
+                ],[
+                    InlineKeyboardButton('Cᴏɴᴛᴀᴄᴛ Aᴅᴍɪɴ', url='https://t.me/CMG_Adminchatbot')
+                  ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -91,16 +91,16 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('✙ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ ✙', url='https://t.me/+o_9txeiRDbJhYjY1')
-            ],[
-            InlineKeyboardButton('Nᴇᴡ Mᴏᴠɪᴇs', url='https://t.me/+5ihzUQU7rmA5Mjc1'),
-            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/CMG_Updates')
-            ],[
-            InlineKeyboardButton('Bᴀᴄᴋᴜᴘ Gʀᴏᴜᴘ', url='https://t.me/+EA0BX9M2a7o0NjI1'),
-            InlineKeyboardButton('Cʜᴀɴɴᴇʟ Lɪɴᴋs', url='https://t.me/Cinemagram_Links')
-            ],[
-            InlineKeyboardButton('Cᴏɴᴛᴀᴄᴛ Aᴅᴍɪɴ', url='https://t.me/CMG_Adminchatbot')
-            ]]
+                    InlineKeyboardButton('✗ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ ✗', url='https://t.me/+EA0BX9M2a7o0NjI1')
+                ],[
+                    InlineKeyboardButton('Nᴇᴡ Mᴏᴠɪᴇs', url='https://t.me/+5ihzUQU7rmA5Mjc1'),
+                    InlineKeyboardButton('Cʜᴀɴɴᴇʟ Lɪɴᴋs', url='https://t.me/Cinemagram_Links')
+                ],[
+                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/CMG_Updates'),
+                    InlineKeyboardButton('Bᴀᴄᴋᴜᴘ Gʀᴏᴜᴘ', url='https://t.me/+-JJnpTV7hDsxNTY1')                  
+                ],[
+                    InlineKeyboardButton('Cᴏɴᴛᴀᴄᴛ Aᴅᴍɪɴ', url='https://t.me/CMG_Adminchatbot')
+                  ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
