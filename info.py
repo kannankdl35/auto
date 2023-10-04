@@ -44,7 +44,17 @@ IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<b>{file_name}</b>\n\n<b>Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ Fᴏʀ Mᴏʀᴇ Mᴏᴠɪᴇs Aɴᴅ Sᴇʀɪᴇs...👇\n[➣ CLICK HERE TO JOIN GROUP](https://t.me/Cinemagram_Links)\n\nകൂടുതൽ സിനിമകൾക്കും സീരിസ്കൾക്കും വേണ്ടി ഞങ്ങളുടെ ഗ്രൂപ്പിൽ ജോയിൻ ചെയ്യൂ... 👇\n[➣ CLICK HERE TO JOIN GROUP](https://t.me/Cinemagram_Links)</b>")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>Your Query: {query}</b> \n‌‌‌‌IMDb Data by: @LazyDeveloper \n\n🏷 Title: <a href={url}>{title}</a>\n🎭 Genres: {genres}\n📆 Year: <a href={url}/releaseinfo>{year}</a>\n🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 \n\n♥️ we are nothing without you ♥️ \n\n💛 Please Share Us 💛\n\n⚠️Click on the button 👇 below to get your query privately")
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>Hey  {message.from_user.mention},</b>
+
+<b>Here is the result for your {query} </b>
+
+<b>🏷 Title</b>: <a href={url}>{title}</a>
+🎭 Genres: {genres}
+📆 Year: <a href={url}/releaseinfo>{year}</a>
+☀️ Languages : <code>{languages}</code>
+📀 RunTime: {runtime} Minutes
+
+<b>Powered By</b> {message.chat.title}")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), False)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
