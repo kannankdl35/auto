@@ -1,9 +1,9 @@
 class script(object):
-    START_TXT = """<b>Hᴇʟʟᴏ {}, Mʏsᴇʟғ Tʜᴏᴍᴀs Sʜᴇʟʙʏ ⚡️,
+    START_TXT = """𝘏𝘦𝘭𝘭𝘰 {}, "𝘐𝘧 𝘺𝘰𝘶 𝘬𝘯𝘰𝘸 𝘵𝘩𝘦 𝘧𝘪𝘳𝘴𝘵 𝘳𝘶𝘭𝘦, 𝘞𝘦𝘭𝘤𝘰𝘮𝘦 𝘵𝘰 𝘮𝘺 𝘤𝘭𝘶𝘣" 🚬
 
-I Aᴍ Jᴜsᴛ A Sɪᴍᴘʟᴇ Aᴜᴛᴏ + Mᴀɴᴜᴀʟ Fɪʟᴛᴇʀ Bᴏᴛ Mᴀᴅᴇ Fᴏʀ Cɪɴᴇᴍᴀɢʀᴀᴍ Gʀᴏᴜᴘ.
+𝘠𝘰𝘶 𝘤𝘢𝘯 𝘳𝘦𝘲𝘶𝘦𝘴𝘵 𝘮𝘰𝘷𝘪𝘦𝘴 𝘵𝘩𝘳𝘰𝘶𝘨𝘩 𝘮𝘺 𝘨𝘳𝘰𝘶𝘱. 𝘊𝘭𝘪𝘤𝘬 𝘵𝘩𝘦 𝘭𝘪𝘯𝘬 𝘣𝘦𝘭𝘰𝘸 𝘵𝘰 𝘫𝘰𝘪𝘯... 👇🏻
 
-Jᴏɪɴ Tʜᴇ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛɪɴɢ Gʀᴏᴜᴘ Usɪɴɢ Tʜᴇ Bᴜᴛᴛᴏɴ Bᴇʟᴏᴡ Tᴏ Usᴇ Mᴇ.</b>"""
+𝘑𝘶𝘴𝘵 𝘳𝘦𝘮𝘦𝘮𝘣𝘦𝘳 :- "𝘐𝘵'𝘴 𝘰𝘯𝘭𝘺 𝘢𝘧𝘵𝘦𝘳 𝘸𝘦'𝘷𝘦 𝘭𝘰𝘴𝘵 𝘦𝘷𝘦𝘳𝘺𝘵𝘩𝘪𝘯𝘨 𝘵𝘩𝘢𝘵 𝘸𝘦'𝘷𝘦 𝘧𝘳𝘦𝘦 𝘵𝘰 𝘥𝘰 𝘢𝘯𝘺𝘵𝘩𝘪𝘯𝘨" 🥊"""
     LZTHMB_TEXT = """Hello {},
 Glad to see you here. It seems that you really love <a href=https://t.me/LazyDeveloperr >LazyDeveloper's</a> work.\n\n<b>Thumbnail extracting</b> feature will be available soon, please join <a href=https://t.me/LazyDeveloper>Dev Channel</a> and stay tuned for next <a href=https://t.me/LazyDeveloper>update</a>.\n\n  🐞 Report Bug here: <a href=http://t.me/LazyDeveloperSupport>LazyDev Support</a>
     """
