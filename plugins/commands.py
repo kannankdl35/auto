@@ -51,7 +51,7 @@ async def start(client, message):
                     InlineKeyboardButton('𝘍𝘪𝘭𝘮𝘰𝘨𝘳𝘢𝘱𝘩𝘺', url='https://t.me/CMG_Filmography'),
                     InlineKeyboardButton('𝘊𝘩𝘢𝘯𝘯𝘦𝘭 𝘓𝘪𝘯𝘬𝘴', url='https://t.me/CINEMAGRAM_LINKS')                  
                 ],[
-                    InlineKeyboardButton('𝘔𝘦𝘦𝘵 𝘛𝘺𝘭𝘦𝘳 𝘋𝘶𝘳𝘥𝘦𝘯 🍾', url='@Tyler_Durden_CMG')
+                    InlineKeyboardButton('𝘔𝘦𝘦𝘵 𝘛𝘺𝘭𝘦𝘳 𝘋𝘶𝘳𝘥𝘦𝘯 🍾', url='https://t.me/Tyler_Durden_CMG')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
