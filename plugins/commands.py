@@ -23,12 +23,12 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('Sᴛᴀʀᴛ Mᴇ', url='https://t.me/CMG_Movie_Bot')
+                InlineKeyboardButton('𝘚𝘵𝘢𝘳𝘵 𝘉𝘰𝘵', url='https://t.me/CMG_Movie_Bot')
             ],
             [
-                InlineKeyboardButton('Cʜᴀɴɴᴇʟ Lɪɴᴋs', url=f"https://t.me/Cinemagram_Links"),
+                InlineKeyboardButton('𝘊𝘩𝘢𝘯𝘯𝘦𝘭 𝘓𝘪𝘯𝘬𝘴', url=f"https://t.me/Cinemagram_Links"),
             ],[
-            InlineKeyboardButton('Cᴏɴᴛᴀᴄᴛ Aᴅᴍɪɴ', url='https://t.me/CMG_Adminchatbot')
+            InlineKeyboardButton('𝘊𝘰𝘯𝘵𝘢𝘤𝘵 𝘈𝘥𝘮𝘪𝘯', url='https://t.me/Tyler_Durden_CMG')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
@@ -43,15 +43,15 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                    InlineKeyboardButton('✗ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ ✗', url='https://t.me/+EA0BX9M2a7o0NjI1')
+                    InlineKeyboardButton('✗ 𝘔𝘰𝘷𝘪𝘦 𝘙𝘦𝘲𝘶𝘦𝘴𝘵𝘪𝘯𝘨 𝘎𝘳𝘰𝘶𝘱 ✗', url='https://t.me/+wdPJvSgi8MA5ZmFl')
                 ],[
-                    InlineKeyboardButton('Nᴇᴡ Mᴏᴠɪᴇs', url='https://t.me/+5ihzUQU7rmA5Mjc1'),
-                    InlineKeyboardButton('Cʜᴀɴɴᴇʟ Lɪɴᴋs', url='https://t.me/Cinemagram_Links')
+                    InlineKeyboardButton('𝘕𝘦𝘸 𝘙𝘦𝘭𝘦𝘢𝘴𝘦', url='https://t.me/+PU_UwBGzfLhlNDQ1'),
+                    InlineKeyboardButton('𝘚𝘦𝘳𝘪𝘦𝘴 𝘎𝘳𝘰𝘶𝘱', url='https://t.me/+1zf74CmPx9xjM2Nl')
                 ],[
-                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/CMG_Updates'),
-                    InlineKeyboardButton('Bᴀᴄᴋᴜᴘ Gʀᴏᴜᴘ', url='https://t.me/+ZJSsijBUYP41NWM1')                  
+                    InlineKeyboardButton('𝘍𝘪𝘭𝘮𝘰𝘨𝘳𝘢𝘱𝘩𝘺', url='https://t.me/CMG_Filmography'),
+                    InlineKeyboardButton('𝘊𝘩𝘢𝘯𝘯𝘦𝘭 𝘓𝘪𝘯𝘬𝘴', url='https://t.me/CINEMAGRAM_LINKS')                  
                 ],[
-                    InlineKeyboardButton('Cᴏɴᴛᴀᴄᴛ Aᴅᴍɪɴ', url='https://t.me/CMG_Adminchatbot')
+                    InlineKeyboardButton('𝘔𝘦𝘦𝘵 𝘛𝘺𝘭𝘦𝘳 𝘋𝘶𝘳𝘥𝘦𝘯 🍾', url='@Tyler_Durden_CMG')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
