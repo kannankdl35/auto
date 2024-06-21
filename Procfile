@@ -1,2 +1,2 @@
 worker: python3 bot.py
-web: yarn start:production
+web: python3 bot.py
